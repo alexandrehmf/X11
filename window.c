@@ -140,7 +140,7 @@ int main()
     }
     clock_gettime(CLOCK_REALTIME,&t1);
     int delta = (t1.tv_sec-t0.tv_sec)*1000000000+(t1.tv_nsec-t0.tv_nsec);
-    if(delta >= 16666667*6)
+    if(delta >= 16666667)
     //        1000000000
     {
     XPutImage(display,win,DefaultGC(display,screen_num),img,0,0,0,0,width,height);
