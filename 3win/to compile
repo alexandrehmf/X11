@@ -1,0 +1,1 @@
+gcc window.c -lX11 -lXext -lm
